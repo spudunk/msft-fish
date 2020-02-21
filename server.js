@@ -4,9 +4,10 @@ var path = require('path');
 var fs = require('fs')
 var app = express()
 
+app.use(express.static(__dirname))
+
 app.use(bodyParser())
 
-app.use(express.static(__dirname))
 
 app.get('/', function(request, response) {
   console.log('GET /')
@@ -24,6 +25,6 @@ app.post('/', function(request, response) {
   }
 })
 
-port = 3000
+port = 8080
 app.listen(port)
 console.log(`Listening at http://localhost:${port}`)
